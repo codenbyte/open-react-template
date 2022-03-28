@@ -50,8 +50,8 @@ const FeaturesSplit = ({
   );
 
   const sectionHeader = {
-    title: 'Workflow that just works',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    title: 'Get to know our team',
+    paragraph: 'Let us take on the stress and you enjoy the process'
   };
 
   return (
@@ -67,13 +67,17 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Helping People is My Passion
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Vieng Vongsakoun 
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Vieng is a Mortgage Loan Originator with Luminate Home Loans that is dedicated to making the purchasing and refinancing process as quick and easy as possible.
+                  <br></br><br></br>
+                  From a young age, Vieng always wanted to be in a profession that helped others (a fireman or in the medical field). Even during his previous career as a Combat Medic in the Army, he was helping those around him—which ultimately led him to where he is today.
+                  <br></br><br></br>
+                  Mortgage Loan Originator | NMLS# 1952511
                   </p>
               </div>
               <div className={
@@ -83,7 +87,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
+                  src={require('./../../assets/images/vieng.png')}
                   alt="Features split 01"
                   width={528}
                   height={396} />
@@ -93,13 +97,13 @@ const FeaturesSplit = ({
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
                 <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
+                  Provide all information before committing
                   </div>
                 <h3 className="mt-0 mb-12">
-                  Data-driven insights
+                  Jenny Holyer
                   </h3>
                 <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                I’m Jenny and I’m a marketing consultant. I’ve been in the web industry for about 5 years now. I enjoy helping businesses succeed by helping them improve their online design, development, web presence, and marketing. If you give my team and I the opportunity we are confident that we can help your boost your business. My team provides a variety of services including: digital research, PPC marketing for AdWords & Bing Ads, Facebook marketing, and analytics.
                   </p>
               </div>
               <div className={
@@ -109,34 +113,8 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/jenny.png')}
                   alt="Features split 02"
-                  width={528}
-                  height={396} />
-              </div>
-            </div>
-
-            <div className="split-item">
-              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Lightning fast workflow
-                  </div>
-                <h3 className="mt-0 mb-12">
-                  Data-driven insights
-                  </h3>
-                <p className="m-0">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-              </div>
-              <div className={
-                classNames(
-                  'split-item-image center-content-mobile reveal-from-bottom',
-                  imageFill && 'split-item-image-fill'
-                )}
-                data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
-                  alt="Features split 03"
                   width={528}
                   height={396} />
               </div>
